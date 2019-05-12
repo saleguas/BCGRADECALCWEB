@@ -7,6 +7,8 @@ exclude: ['README.*', 'LICENSE.txt']
 sass:
     style: expanded
 
+plugins:
+  - jekyll-sitemap
 
 # CAUTION
 # When modifying this file, take care to preserve the indentation. This is YAML ...
