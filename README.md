@@ -9,4 +9,4 @@ Made using [The Fuse Core Theme!](https://github.com/tsjensen/fuse-core)
 
 🕐 🕜 🕙 🕥 🕚 🕦 🕛 🕧 🕑 🕝 🕒 🕞 🕓 🕟 🕔 🕠 🕕 🕡 🕖 🕢 🕗 🕣 🕘 🕤
 
-![alt text](images/BCGradeScreenshot-PixTeller)
+![alt text](images/BCGradeScreenshot-PixTeller.png)
