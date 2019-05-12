@@ -1,0 +1,86 @@
+# Fuse Core Theme for Jekyll - Settings
+# https://github.com/tsjensen/fuse-core
+
+markdown: kramdown
+permalink: pretty
+exclude: ['README.*', 'LICENSE.txt']
+sass:
+    style: expanded
+
+
+# CAUTION
+# When modifying this file, take care to preserve the indentation. This is YAML ...
+
+# Main Headline, name required, subtitle optional
+name: Broward D2L Extension
+#subtitle:
+subtitle: Calculate your grades
+
+# Title attribute of HTML Page, uses 'name' from above if empty
+title:
+
+# Information for web crawlers / Google, all of them optional
+# 'description' and 'keywords' simply set the corresponding meta tags,
+# 'crawl' is the 'Robots' tag http://www.robotstxt.org/meta.html
+robots:
+    description: One line of text describing the content of the page in less than 140 characters.
+    keywords: foo, bar, baz
+    crawl: index,follow
+
+# website address when deployed, also given as canonical link
+url: https://tsjensen.github.io/fuse-core/
+
+# The 'baseurl' is prepended to all website-internal links.
+# 'baseurl' will often be '', but for a project page on gh-pages, it needs to be the project name.
+# If not empty, be careful to keep the leading slash, and don't add a slash at the end.
+#baseurl: ''
+baseurl: ''
+
+# Enable Google Analytics. Leave empty (just "ga:" with subitems commented out) to disable.
+# In order to comply with EU cookie law, enable 'cookieconsent' to show a little popup asking users to acknowledge the GA cookies.
+# Also, some places require you to anonymize the users' IPs, which can be enabled via 'anonymizeip' below. You normally want that.
+# https://support.google.com/analytics/answer/2763052
+#ga:
+ga:
+    account: 'UA-120960520-1'
+    cookieconsent: true
+    anonymizeip: true
+
+
+# A picture of you, square(!), at least 180x180 pixels, more is better. Recommended file size < 100 KB.
+# Leave empty for generic placeholder image.
+# You can use your GitHub image:
+avatar: "https://avatars0.githubusercontent.com/u/8897534"
+#avatar: "images/jonathan_doe.jpg"
+#avatar:
+
+
+# All the social media and other sites that we want to link to. The 'show' flag determines if the link is shown.
+# The order of this list controls the order of the links on the page. Feel free to add.
+links:
+  - googleplus:
+      name: Google
+      show: true
+      href: https://chrome.google.com/webstore/detail/bc-grade-calculator/indmmjbhnaffjfchjohdjomfefjbakef
+      icon: fab fa-google-plus
+  - github:
+      name: GitHub
+      show: true
+      href: https://github.com/saleguas/BC_GradeCalculator
+      icon: fab fa-github
+  - email:
+      name: Email
+      show: true
+      href: mailto:willandsalinc@gmail.com
+      icon: fas fa-envelope
+
+# Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
+#extra_html:
+extra_html: >
+    <h3>Ever wanted to know your grade in D2L without calculating manually? Well, you're in the right place.</h3>
+    <br>
+    <h3>This extension was made to solve that issue.</h3>
+    <br>
+    <b><a href="    https://chrome.google.com/webstore/detail/bc-grade-calculator/indmmjbhnaffjfchjohdjomfefjbakef">Check it out on the google webstore!</a></b>
+
+#EOF
